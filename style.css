@@ -144,7 +144,7 @@ footer {
     text-align: center;
     padding: 3em 0;
 }
-/*added-header*/
+/*media for main layout-large*/
 @media (min-width: 675px) {
     header {      
         text-align: left;
@@ -198,6 +198,7 @@ nav a:focus {
     color: #707070;
 }
 
+/*media for navigation*/
 @media (max-width: 675px) {
     nav ul {
         flex-direction: column;
@@ -209,7 +210,6 @@ nav a:focus {
 }
 
 /* articles css-flex*/
-
 .article-featured {
     border-bottom: #707070 1px solid;
     padding-bottom: 2em;
